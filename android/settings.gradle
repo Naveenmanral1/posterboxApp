@@ -4,3 +4,11 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autoli
 rootProject.name = 'posterbox'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
+// extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
+//     def configFile = new File(rootDir, "ReactNativeConfig.json")
+//     if (configFile.exists()) {
+//         ex.sourceFile(configFile)
+//     } else {
+//         ex.autolinkLibrariesFromCommand()
+//     }
+// }

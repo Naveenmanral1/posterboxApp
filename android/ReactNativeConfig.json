@@ -1,0 +1,6 @@
+Config Validation Error: "dependencies.@react-native-async-storage/async-storage.platforms.android.cmake" is not allowed
+    at parseUserConfig (/Users/naveensingh/posterbox/node_modules/@react-native-community/cli-config/build/readConfigFromDisk.js:48:11)
+    at readConfigFromDiskAsync (/Users/naveensingh/posterbox/node_modules/@react-native-community/cli-config/build/readConfigFromDisk.js:63:10)
+    at async loadConfigAsync (/Users/naveensingh/posterbox/node_modules/@react-native-community/cli-config/build/loadConfig.js:141:22)
+    at async setupAndRun (/Users/naveensingh/posterbox/node_modules/@react-native-community/cli/build/index.js:204:14)
+    at async Object.run (/Users/naveensingh/posterbox/node_modules/@react-native-community/cli/build/index.js:159:5)
